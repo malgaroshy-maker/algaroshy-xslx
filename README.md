@@ -1,6 +1,8 @@
-# Algaroshy XLSX
+# Algaroshy XLSX | القروشي إكسلسكس
 
 > The ultimate Excel agent skill — formula-first, chart-native, audit-ready.
+> 
+> مهارة إكسل متكاملة للوكيل الذكي — صيغ حية، رسوم بيانية أصلية، جاهزة للتدقيق.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills.sh-algaroshy--xlsx-green)](https://skills.sh)
@@ -10,7 +12,19 @@
 
 Merges the best of [Anthropic's xlsx skill](https://github.com/anthropics/skills) and [MiniMax's minimax-xlsx](https://github.com/MiniMax-AI/skills) into one production-grade skill.
 
-## Why Algaroshy XLSX?
+يدمج أفضل ما في مهارتي Anthropic و MiniMax في مهارة واحدة جاهزة للإنتاج.
+
+## One-Liner Install
+
+Just paste this into your OpenCode agent:
+
+> install this excel skill in opencode: https://github.com/malgaroshy-maker/algaroshy-xslx.git
+
+Or in Arabic:
+
+> ثبت مهارة الإكسل هذه في opencode: https://github.com/malgaroshy-maker/algaroshy-xslx.git
+
+## Why Algaroshy XLSX? | لماذا القروشي إكسلسكس؟
 
 | | Anthropic xlsx | MiniMax xlsx | **Algaroshy xlsx** |
 |---|---|---|---|
@@ -23,11 +37,11 @@ Merges the best of [Anthropic's xlsx skill](https://github.com/anthropics/skills
 | **Reliability** | Good | Poor (broken sheets) | **Good (all sheets work)** |
 | **Financial colors** | Partial | XSD standard | **Both + conditional fills** |
 
-## Quick Start
+## Quick Start | بداية سريعة
 
 ```bash
 # Clone into your agent's skills directory
-git clone https://github.com/algaroshy/algaroshy-xlsx.git ~/.agents/skills/algaroshy-xlsx
+git clone https://github.com/malgaroshy-maker/algaroshy-xslx.git ~/.agents/skills/algaroshy-xlsx
 
 # Or copy directly
 cp -r algaroshy-xlsx ~/.agents/skills/
@@ -128,6 +142,58 @@ python demo/build_analysis.py
 ```
 
 Opens `algaroshy-xlsx-analysis.xlsx` — 209 formulas, 4 native charts, 8 sheets.
+
+---
+
+## النسخة العربية | Arabic Version
+
+### ما هي القروشي إكسلسكس؟
+
+مهارة إكسل مدمجة تجمع أفضل ما في مكتبتين:
+- **Anthropic xlsx**: موثوقية openpyxl وتحليل pandas
+- **MiniMax minimax-xlsx**: فلسفة الصيغ الحية، ألوان مالية قياسية، أدوات التحقق
+
+### المميزات الرئيسية
+
+- **كل قيمة مشتقة = صيغة إكسل حية** — ليست أرقاماً صلبة. عند تغيير المدخلات، تعيد النتائج الحساب تلقائياً
+- **رسوم بيانية أصلية** — ليست صور PNG، بل رسوم Excel حقيقية قابلة للتعديل
+- **تدقيق مالي مدمج** — ألوان قياسية (أزرق = مدخلات، أسود = صيغ، أخضر = مرجع خارجي)
+- **التحقق من الصيغ** — `formula_check.py` يضمن صفر أخطاء قبل التسليم
+- **تقرير نسبة الصيغ** — `formula_audit.py` يظهر نسبة الصيغ مقابل الأرقام الصلبة لكل ورقة
+
+### التثبيت السريع
+
+انسخ هذا السطر في وكيل OpenCode:
+
+```
+ثبت مهارة الإكسل هذه في opencode: https://github.com/malgaroshy-maker/algaroshy-xslx.git
+```
+
+أو يدوياً:
+
+```bash
+git clone https://github.com/malgaroshy-maker/algaroshy-xslx.git ~/.agents/skills/algaroshy-xlsx
+```
+
+### مثال: تحليل شركة نكسة للتصنيع
+
+يقوم العرض التوضيحي ببناء مصنف تحليلي من 8 أوراق:
+
+| الورقة | المحتوى |
+|--------|---------|
+| الملخص التنفيذي | مؤشرات الأداء الرئيسية، أهم 5 إجراءات |
+| اتجاهات الإيرادات | رسم بياني شهري، نمو شهري، صيغ حية |
+| الإيرادات حسب المنطقة والمنتج | رسم دائري للمناطق، رسم بياني للمنتجات |
+| تحليل العملاء | مخاطر التركيز، تأخير الدفع |
+| تحليل المخزون | تصنيف ABC، مخاطر النفاد |
+| أداء الموظفين | كفاءة العمل الإضافي، تلوين شرطي |
+| تذاكر الدعم | تحليل باريتو للأسباب الجذرية |
+| انحراف الميزانية | رسم بياني للانحراف، صيغ `=C{n}-B{n}` حية |
+
+```bash
+pip install pandas openpyxl
+python demo/build_analysis.py
+```
 
 ## Credits
 
