@@ -1,8 +1,8 @@
-# Algaroshy XLSX | الجروشي إكسلسكس
+# Algaroshy XLSX
 
 > The ultimate Excel agent skill — formula-first, chart-native, audit-ready.
-> 
-> مهارة إكسل متكاملة للوكيل الذكي — صيغ حية، رسوم بيانية أصلية، جاهزة للتدقيق.
+
+Made by **Mahamed Algaroshy (محمد الجروشي)**
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills.sh-algaroshy--xlsx-green)](https://skills.sh)
@@ -24,7 +24,7 @@ Or in Arabic:
 
 > ثبت مهارة الإكسل هذه في opencode: https://github.com/malgaroshy-maker/algaroshy-xslx.git
 
-## Why Algaroshy XLSX? | لماذا الجروشي إكسلسكس؟
+## Why Algaroshy XLSX?
 
 | | Anthropic xlsx | MiniMax xlsx | **Algaroshy xlsx** |
 |---|---|---|---|
@@ -37,7 +37,7 @@ Or in Arabic:
 | **Reliability** | Good | Poor (broken sheets) | **Good (all sheets work)** |
 | **Financial colors** | Partial | XSD standard | **Both + conditional fills** |
 
-## Quick Start | بداية سريعة
+## Quick Start
 
 ```bash
 # Clone into your agent's skills directory
@@ -147,7 +147,7 @@ Opens `algaroshy-xlsx-analysis.xlsx` — 209 formulas, 4 native charts, 8 sheets
 
 ## النسخة العربية | Arabic Version
 
-### ما هي الجروشي إكسلسكس؟
+### ما هي Algaroshy XLSX؟
 
 مهارة إكسل مدمجة تجمع أفضل ما في مكتبتين:
 - **Anthropic xlsx**: موثوقية openpyxl وتحليل pandas
