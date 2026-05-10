@@ -1,4 +1,4 @@
-# Algaroshy XLSX | القروشي إكسلسكس
+# Algaroshy XLSX | الجروشي إكسلسكس
 
 > The ultimate Excel agent skill — formula-first, chart-native, audit-ready.
 > 
@@ -24,7 +24,7 @@ Or in Arabic:
 
 > ثبت مهارة الإكسل هذه في opencode: https://github.com/malgaroshy-maker/algaroshy-xslx.git
 
-## Why Algaroshy XLSX? | لماذا القروشي إكسلسكس؟
+## Why Algaroshy XLSX? | لماذا الجروشي إكسلسكس؟
 
 | | Anthropic xlsx | MiniMax xlsx | **Algaroshy xlsx** |
 |---|---|---|---|
@@ -147,7 +147,7 @@ Opens `algaroshy-xlsx-analysis.xlsx` — 209 formulas, 4 native charts, 8 sheets
 
 ## النسخة العربية | Arabic Version
 
-### ما هي القروشي إكسلسكس؟
+### ما هي الجروشي إكسلسكس؟
 
 مهارة إكسل مدمجة تجمع أفضل ما في مكتبتين:
 - **Anthropic xlsx**: موثوقية openpyxl وتحليل pandas
