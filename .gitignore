@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Excel temporary files
+~$*.xlsx
+~$*.xlsm
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Agent config (users add their own)
+.claude/
+.codex/
+.cursor/
+.opencode/
+
+# Output files (keep demo inputs only)
+demo/*-analysis.xlsx
+demo/output/
